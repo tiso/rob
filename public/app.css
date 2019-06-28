@@ -1,0 +1,32 @@
+body{background: #FFF none;color: #000;font: 16px/20px Arial, sans-serif;text-align: center;}
+form{margin: 10px 0;}
+fieldset{border: 1px solid #CCC;margin: 0;}
+legend{font-weight: bold;}
+label{width: 20ex;display: inline-block;padding: 5px 0;}
+label:after{content: ":";padding-right: 1ex;}
+input[type="submit"]{font-weight: bold;}
+table{width: 100%;border-collapse: collapse;}
+caption{font-weight: bold;text-align: left;padding: 5px 5px 0;}
+th, td{border: 1px solid #CCC;padding: 0 5px;}
+a{color: #D2271B;}
+
+/*reset:*/
+ul.rst{margin: 0;padding: 0;}
+ul.rst li{list-style: none;}
+
+/*classes:*/
+.clear{clear: both;}
+.hide{display: none;}
+.a11y{visibility: hidden;}
+
+/*layout:*/
+#all{background: #F8F8F8 none;width: 1200px;margin: 0 auto;text-align: left;}
+#header, #footer{background: #DDD none;text-align: center;margin: 10px 0;padding: 5px;}
+#header a{float: left;}
+#menu{background: #DDD none;}
+#menu li{float: left;margin-right: 5px;}
+#menu li a{display: inline-block;padding: 10px;}
+#menu li a:hover{background: #D2271B none;color: #FFF;}
+#main{padding: 10px;min-height: 500px;}
+span.error{background: #EEE none;color: #F33;font-weight: bold;display: inline-block;border: 1px solid #999;padding: 3px;}
+span.required{padding: 0 3px;}

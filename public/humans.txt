@@ -1,0 +1,13 @@
+/* TEAM */
+	Developer: Tibor Soviš
+	Twitter: @tiso
+	Location: Bratislava, Slovak Republic
+
+/* SITE */
+	Last update: 2019/06/28
+	Software: NetBeans IDE (https://netbeans.org), git (https://git-scm.com), Composer (https://getcomposer.org) https://www.favicon.cc/
+
+/* THANKS */
+	http://www.robotstxt.org/
+	http://humanstxt.org/
+	https://www.michalspacek.cz/k-cemu-je-soubor-security.txt

@@ -1,0 +1,22 @@
+# disable directory listing
+Options -Indexes
+
+# security.txt redirect
+Redirect 301 /security.txt /.well-known/security.txt
+
+# enable cool URL
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	# RewriteBase /
+
+	# app
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ /index.php [L]
+	#RewriteRule !\.(pdf|js|ico|gif|jpg|png|css|csv|log|txt|rar|zip|tar\.gz)$ index.php [L]
+</IfModule>
+
+# enable gzip compression
+#<IfModule mod_deflate.c>
+#	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript text/javascript application/javascript application/json
+#</IfModule>

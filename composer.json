@@ -1,0 +1,21 @@
+{
+    "name": "tiso/rob",
+    "description": "Job positions and Employees evidence App",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tiso",
+            "email": "tibor.sovis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
